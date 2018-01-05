@@ -1,0 +1,1 @@
+g++ main.cpp cpu.cpp cpu.hpp -o ../build/main -std=c++11
