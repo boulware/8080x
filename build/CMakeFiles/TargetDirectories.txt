@@ -1,0 +1,3 @@
+/home/harm/work/proj/computer/build/CMakeFiles/rebuild_cache.dir
+/home/harm/work/proj/computer/build/CMakeFiles/edit_cache.dir
+/home/harm/work/proj/computer/build/CMakeFiles/main.dir
