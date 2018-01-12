@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/harm/work/proj/computer
+CMAKE_SOURCE_DIR = /home/harm/work/proj/8080x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/harm/work/proj/computer/build
+CMAKE_BINARY_DIR = /home/harm/work/proj/8080x/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/source/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/main.cpp.o: ../source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harm/work/proj/computer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/source/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/main.cpp.o -c /home/harm/work/proj/computer/source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harm/work/proj/8080x/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/source/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/main.cpp.o -c /home/harm/work/proj/8080x/source/main.cpp
 
 CMakeFiles/main.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/source/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harm/work/proj/computer/source/main.cpp > CMakeFiles/main.dir/source/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harm/work/proj/8080x/source/main.cpp > CMakeFiles/main.dir/source/main.cpp.i
 
 CMakeFiles/main.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/source/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harm/work/proj/computer/source/main.cpp -o CMakeFiles/main.dir/source/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harm/work/proj/8080x/source/main.cpp -o CMakeFiles/main.dir/source/main.cpp.s
 
 CMakeFiles/main.dir/source/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/source/main.cpp.o.provides.build: CMakeFiles/main.dir/source
 
 CMakeFiles/main.dir/source/cpu.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/source/cpu.cpp.o: ../source/cpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harm/work/proj/computer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/source/cpu.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/cpu.cpp.o -c /home/harm/work/proj/computer/source/cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harm/work/proj/8080x/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/source/cpu.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/source/cpu.cpp.o -c /home/harm/work/proj/8080x/source/cpu.cpp
 
 CMakeFiles/main.dir/source/cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/source/cpu.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harm/work/proj/computer/source/cpu.cpp > CMakeFiles/main.dir/source/cpu.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harm/work/proj/8080x/source/cpu.cpp > CMakeFiles/main.dir/source/cpu.cpp.i
 
 CMakeFiles/main.dir/source/cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/source/cpu.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harm/work/proj/computer/source/cpu.cpp -o CMakeFiles/main.dir/source/cpu.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harm/work/proj/8080x/source/cpu.cpp -o CMakeFiles/main.dir/source/cpu.cpp.s
 
 CMakeFiles/main.dir/source/cpu.cpp.o.requires:
 
@@ -113,15 +113,15 @@ main_OBJECTS = \
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/source/main.cpp.o
-main: CMakeFiles/main.dir/source/cpu.cpp.o
-main: CMakeFiles/main.dir/build.make
-main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harm/work/proj/computer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main"
+bin/main: CMakeFiles/main.dir/source/main.cpp.o
+bin/main: CMakeFiles/main.dir/source/cpu.cpp.o
+bin/main: CMakeFiles/main.dir/build.make
+bin/main: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harm/work/proj/8080x/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: main
+CMakeFiles/main.dir/build: bin/main
 
 .PHONY : CMakeFiles/main.dir/build
 
@@ -135,6 +135,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/harm/work/proj/computer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harm/work/proj/computer /home/harm/work/proj/computer /home/harm/work/proj/computer/build /home/harm/work/proj/computer/build /home/harm/work/proj/computer/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/harm/work/proj/8080x/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harm/work/proj/8080x /home/harm/work/proj/8080x /home/harm/work/proj/8080x/build /home/harm/work/proj/8080x/build /home/harm/work/proj/8080x/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

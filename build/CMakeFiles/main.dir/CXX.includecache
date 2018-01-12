@@ -16,9 +16,9 @@ cmath
 map
 -
 
-/home/harm/work/proj/computer/source/cpu.cpp
+/home/harm/work/proj/8080x/source/cpu.cpp
 cpu.hpp
-/home/harm/work/proj/computer/source/cpu.hpp
+/home/harm/work/proj/8080x/source/cpu.hpp
 iostream
 -
 bitset
@@ -28,7 +28,7 @@ cassert
 iomanip
 -
 
-/home/harm/work/proj/computer/source/main.cpp
+/home/harm/work/proj/8080x/source/main.cpp
 iostream
 -
 string
@@ -38,5 +38,5 @@ cstdint
 cmath
 -
 cpu.hpp
-/home/harm/work/proj/computer/source/cpu.hpp
+/home/harm/work/proj/8080x/source/cpu.hpp
 

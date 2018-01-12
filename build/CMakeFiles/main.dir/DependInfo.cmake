@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/harm/work/proj/computer/source/cpu.cpp" "/home/harm/work/proj/computer/build/CMakeFiles/main.dir/source/cpu.cpp.o"
-  "/home/harm/work/proj/computer/source/main.cpp" "/home/harm/work/proj/computer/build/CMakeFiles/main.dir/source/main.cpp.o"
+  "/home/harm/work/proj/8080x/source/cpu.cpp" "/home/harm/work/proj/8080x/build/CMakeFiles/main.dir/source/cpu.cpp.o"
+  "/home/harm/work/proj/8080x/source/main.cpp" "/home/harm/work/proj/8080x/build/CMakeFiles/main.dir/source/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

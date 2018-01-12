@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/harm/work/proj/computer/include 
+CXX_INCLUDES = -I/home/harm/work/proj/8080x/include 
 
