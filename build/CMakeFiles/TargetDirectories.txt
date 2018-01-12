@@ -1,3 +1,0 @@
-/home/harm/work/proj/8080x/build/CMakeFiles/rebuild_cache.dir
-/home/harm/work/proj/8080x/build/CMakeFiles/edit_cache.dir
-/home/harm/work/proj/8080x/build/CMakeFiles/main.dir
